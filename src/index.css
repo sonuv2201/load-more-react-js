@@ -1,0 +1,99 @@
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.wrapper > div {
+  border: 1px solid #00000029;
+}
+
+.thumb img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 0 27px 12px;
+}
+
+.content h2 {
+  margin-bottom: 0;
+  font-size: 19px;
+  padding-bottom: 0;
+}
+
+.content h3 {
+  margin-top: 0;
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: red;
+}
+
+.content button {
+  background: black;
+  color: #fff;
+  padding: 8px 18px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+
+.App {
+    font-family: sans-serif;
+}
+
+.container {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+
+button.loadMore:hover {
+  background: black;
+  color: #fff;
+  border-color: black;
+  cursor: pointer;
+}
+button.loadMore {
+  border: 1px solid black;
+  padding: 10px 20px;
+  display: table;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+button.button {
+  display: table;
+  margin: auto;
+  margin-top: 70px;
+  border: 2px solid black;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+button.button:hover {
+  background: black;
+  color: #fff;
+  border-color: black;
+  cursor: pointer;
+}
